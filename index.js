@@ -6,5 +6,7 @@ module.exports = {
     require("babel-plugin-transform-es2015-parameters"),
     require("babel-plugin-transform-es2015-sticky-regex"),
     require("babel-plugin-transform-es2015-unicode-regex"),
+    require("babel-plugin-transform-function-bind"),
+    require("babel-plugin-transform-object-rest-spread"),
   ]
 };

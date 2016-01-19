@@ -1,11 +1,11 @@
-# babel-preset-es2015-node
+# babel-preset-es2015-node-plus
 
-> Babel preset for all es2015 plugins needed with latest stable node.
+> Babel preset for all es2015 plugins needed with latest stable node, plus object spread and function bind from ES2016+.
 
 ## Install
 
 ```sh
-$ npm install --save-dev babel-preset-es2015-node
+$ npm install --save-dev babel-preset-es2015-node-plus
 ```
 
 ## Usage
@@ -16,20 +16,20 @@ $ npm install --save-dev babel-preset-es2015-node
 
 ```json
 {
-  "presets": ["es2015-node"]
+  "presets": ["es2015-node-plus"]
 }
 ```
 
 ### Via CLI
 
 ```sh
-$ babel script.js --preset es2015-node
+$ babel script.js --preset es2015-node-plus
 ```
 
 ### Via Node API
 
 ```javascript
 require("babel-core").transform("code", {
-  presets: ["es2015-node"]
+  presets: ["es2015-node-plus"]
 });
 ```
